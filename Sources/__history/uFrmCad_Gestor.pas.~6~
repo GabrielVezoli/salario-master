@@ -1,0 +1,43 @@
+unit uFrmCad_Gestor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, uFuncionario;
+
+type
+  TFrmCad_Gestor = class(TForm)
+    EdtGes_Nome: TEdit;
+    EdtGes_CPF: TEdit;
+    EdtGes_Salario: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    BtnCad_Gestor: TButton;
+    procedure BtnCad_GestorClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmCad_Gestor: TFrmCad_Gestor;
+  Funcionario: TFuncionario;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmCad_Gestor.BtnCad_GestorClick(Sender: TObject);
+begin
+  Funcionario := TFuncionario.Create;
+
+  EdtGes_Nome.Text := Funcionario.Nome;
+  EdtGes_CPF.Text := Funcionario.CPF;
+  EdtGes_Salario.Text := Funcionario.Salario;
+end;
+
+end.

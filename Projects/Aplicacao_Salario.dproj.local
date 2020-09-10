@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/08 14:09:23.000.344,=C:\Users\raul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:12:35.000.403,C:\Users\raul\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmPrincipal.pas</Transaction>
+    <Transaction>2020/09/08 14:12:35.000.403,C:\Users\raul\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2020/09/08 14:13:03.000.766,C:\Users\raul\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Aplicacao_Salario.dproj</Transaction>
+    <Transaction>2020/09/08 14:39:21.000.752,=C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:39:49.000.911,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uVendedor.pas</Transaction>
+    <Transaction>2020/09/08 14:39:54.000.644,=C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:40:10.000.057,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uGestor.pas</Transaction>
+    <Transaction>2020/09/08 14:45:34.000.637,C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uVendedor.pas=</Transaction>
+    <Transaction>2020/09/08 14:46:04.000.677,C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uGestor.pas=</Transaction>
+    <Transaction>2020/09/08 14:46:55.000.324,=C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:47:27.000.456,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFuncionario.pas</Transaction>
+    <Transaction>2020/09/08 15:06:13.000.522,=C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 15:06:50.000.170,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmCadastro.pas</Transaction>
+    <Transaction>2020/09/08 15:06:50.000.170,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.dfm=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmCadastro.dfm</Transaction>
+    <Transaction>2020/09/08 15:40:57.000.732,C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmCadastro.pas=</Transaction>
+    <Transaction>2020/09/08 15:41:34.000.185,=C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 15:42:40.000.115,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmCad_Vendedor.pas</Transaction>
+    <Transaction>2020/09/08 15:42:40.000.115,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.dfm=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmCad_Vendedor.dfm</Transaction>
+    <Transaction>2020/09/08 15:44:01.000.387,=C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 15:44:28.000.257,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.dfm=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmCad_Gestor.dfm</Transaction>
+    <Transaction>2020/09/08 15:44:28.000.257,C:\Users\raul\Desktop\aplicaçãosalario-master\Projects\Unit1.pas=C:\Users\raul\Desktop\aplicaçãosalario-master\Sources\uFrmCad_Gestor.pas</Transaction>
+    <Transaction>2020/09/09 14:05:32.000.075,=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 14:05:48.000.013,C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Sources\uFrmCad_Funcionario.pas=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 14:05:48.000.013,C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Sources\uFrmCad_Funcionario.dfm=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/09/09 14:49:51.000.390,C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Sources\uFuncionario.pas=</Transaction>
+    <Transaction>2020/09/09 14:50:22.000.921,=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 14:50:42.000.724,C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Sources\uFuncionario.pas=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 14:59:55.000.830,=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 15:00:15.000.102,C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Sources\uCad_Vendedor.pas=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 15:00:18.000.935,=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 15:00:28.000.329,C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Sources\uCad_Gestor.pas=C:\Users\Desktop\Documents\Curso Técnico em Desenvolvimento de Sistemas - SENAI\Delphi Programação\aplicaçãosalario-master\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="..\..\salario-master"/>
+    <File Path="..\Sources"/>
+    <File Path="..\Sources\uCad_Gestor.pas"/>
+    <File Path="..\Sources\uCad_Vendedor.pas"/>
+    <File Path="..\Sources\uFrmCad_Funcionario.pas"/>
+    <File Path="..\Sources\uFrmCad_Funcionario.dfm"/>
+    <File Path="..\Sources\uFrmPrincipal.pas"/>
+    <File Path="..\Sources\uFrmPrincipal.dfm"/>
+    <File Path="..\Sources\uFuncionario.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,17 @@
+program Aplicacao_Salario;
+
+uses
+  Vcl.Forms,
+  uFrmPrincipal in '..\Sources\uFrmPrincipal.pas' {FrmPrincipal},
+  uFuncionario in '..\Sources\uFuncionario.pas',
+  uFrmCad_Vendedor in '..\Sources\uFrmCad_Vendedor.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

@@ -1,0 +1,24 @@
+unit uFrmCad_Gestor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TFrmCad_Gestor = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmCad_Gestor: TFrmCad_Gestor;
+
+implementation
+
+{$R *.dfm}
+
+end.

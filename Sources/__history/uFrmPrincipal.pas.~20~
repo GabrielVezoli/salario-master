@@ -1,0 +1,31 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, uFuncionario,
+  uFrmCad_Vendedor, uFrmCad_Gestor;
+
+type
+  TFrmPrincipal = class(TForm)
+    BtnTCadastro: TButton;
+    EdtUsuario: TEdit;
+    EdtSenha: TEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+  CadastroVen: TFrmCad_Vendedor;
+  CadastroGes: TFrmCad_Gestor;
+
+implementation
+
+{$R *.dfm}
+
+end.

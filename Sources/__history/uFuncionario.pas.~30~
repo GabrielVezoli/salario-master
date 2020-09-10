@@ -1,0 +1,59 @@
+unit uFuncionario;
+
+interface
+
+type
+  TFuncionario = class
+
+  private
+    FNome: String;
+    FCPF: String;
+    FSalario: Integer;
+    procedure setNome(value: String);
+    procedure setCPF(value: String);
+    procedure setSalario(value: Double);
+    function getNome: String;
+    function getCPF: String;
+    function getSalario: Integer;
+
+  public
+    property Nome: String read getNome write setNome;
+    property CPF: String read getCPF write setCPF;
+    property Salario: Integer read getSalario write setSalario;
+  end;
+
+implementation
+
+{ TFuncionario }
+
+function TFuncionario.getCPF: String;
+begin
+  Result := FCPF;
+end;
+
+function TFuncionario.getNome: String;
+begin
+  Result := FNome;
+end;
+
+function TFuncionario.getSalario: Integer;
+begin
+  Result := FSalario;
+end;
+
+procedure TFuncionario.setCPF(value: String);
+begin
+  FCPF := value;
+end;
+
+procedure TFuncionario.setNome(value: String);
+begin
+  FNome := value;
+end;
+
+procedure TFuncionario.setSalario(value: Integer);
+begin
+  FSalario := value;
+end;
+
+end.

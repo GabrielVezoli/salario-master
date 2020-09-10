@@ -1,0 +1,40 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, uFuncionario, uFrmCad_Funcionario;
+
+type
+  TFrmPrincipal = class(TForm)
+    BtnTCadastro: TButton;
+    EdtUsuario: TEdit;
+    EdtSenha: TEdit;
+    BtnLogin: TButton;
+    Label1: TLabel;
+    procedure BtnTCadastroClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmPrincipal.BtnTCadastroClick(Sender: TObject);
+begin
+  try
+  FrmCad_Funcionario
+  finally
+    FreeAndNil(FrmCad_Funcionario);
+  end;
+end;
+
+end.

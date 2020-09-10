@@ -1,0 +1,40 @@
+object FrmCadastro: TFrmCadastro
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro'
+  ClientHeight = 242
+  ClientWidth = 527
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object EdtNome: TEdit
+    Left = 88
+    Top = 56
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    TextHint = 'Nome'
+  end
+  object EdtCPF: TEdit
+    Left = 88
+    Top = 93
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    TextHint = 'CPF'
+  end
+  object EdtSalario: TEdit
+    Left = 88
+    Top = 136
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    TextHint = 'Sal'#225'rio'
+  end
+end

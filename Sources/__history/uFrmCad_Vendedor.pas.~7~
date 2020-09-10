@@ -1,0 +1,43 @@
+unit uFrmCad_Vendedor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, uFuncionario;
+
+type
+  TFrmCad_Vendedor = class(TForm)
+    EdtVen_Nome: TEdit;
+    EdtVen_CPF: TEdit;
+    EdtVen_Salario: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    BtnCad_Vendedor: TButton;
+    procedure BtnCad_VendedorClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmCad_Vendedor: TFrmCad_Vendedor;
+  Funcionario: TFuncionario;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmCad_Vendedor.BtnCad_VendedorClick(Sender: TObject);
+begin
+
+  Funcionario := TFuncionario.Create;
+
+  EdtVen_Nome.Text := Funcionario.Nome;
+  EdtVen_CPF.Text := Funcionario.CPF;
+  EdtVen_Salario.Text := Funcionario.Salario;
+end;
+end.

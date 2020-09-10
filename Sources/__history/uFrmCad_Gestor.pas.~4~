@@ -1,0 +1,33 @@
+unit uFrmCad_Gestor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFrmCad_Gestor = class(TForm)
+    EdtGes_Nome: TEdit;
+    EdtGes_CPF: TEdit;
+    EdtGes_Salario: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    BtnCad_Gestor: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmCad_Gestor: TFrmCad_Gestor;
+
+implementation
+
+{$R *.dfm}
+
+
+
+end.
